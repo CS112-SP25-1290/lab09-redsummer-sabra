@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.lab09.controllers.MainController">
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.lab09.controllers.MainController">
    <children>
       <Label id="titleLabel" fx:id="titleLabel" alignment="CENTER" prefHeight="38.0" prefWidth="556.0" text="Title" />
       <Label id="subtitleLabel" fx:id="subtitleLabel" alignment="CENTER" prefHeight="41.0" prefWidth="662.0" text="Subtitle" />
-      <Label id="descriptionLabel" fx:id="descriptionLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="293.0" prefWidth="257.0" text="Description" textAlignment="CENTER" />
-      <ImageView id="imageView" fx:id="imageView" fitHeight="180.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <Label id="descriptionLabel" fx:id="descriptionLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="195.0" prefWidth="408.0" text="Description" textAlignment="CENTER" wrapText="true" />
+      <ImageView fx:id="imageLabel" fitHeight="136.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
       <HBox alignment="CENTER" prefHeight="213.0" prefWidth="474.0" spacing="30.0">
          <children>
             <Button alignment="CENTER" mnemonicParsing="false" onAction="#handleStart" text="Start" />
